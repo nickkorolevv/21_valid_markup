@@ -1,7 +1,7 @@
-# Site of Real Estate Agency
+# Сайт Агентство недвижимости
+Сайт находится [здесь](https://nickkorolevv.github.io/)
 
-[TODO. There will be project description]
 
-# Project Goals
+# Цели проекта
 
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+Проект был написан в рамках курса веб-разработки - [DEVMAN.org](https://devman.org)
