@@ -58,7 +58,7 @@ hr.small {
 
 /* Side Menu */
 
-#sidebar-wrapper {
+.sidebar-wrapper {
   z-index: 1000;
   position: fixed;
   right: 0;
@@ -127,7 +127,7 @@ hr.small {
   right: 0;
 }
 
-#sidebar-wrapper.active {
+.sidebar-wrapper.active {
   right: 250px;
   width: 250px;
   -webkit-transition: all 0.4s ease 0s;
