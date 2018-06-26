@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-  <script src="js/jquery.js"></script>
+  <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <link rel="icon" href="img/favicon.ico">
 
@@ -10,7 +10,7 @@
   <link href="css/stylish-portfolio.css" rel="stylesheet">
   <title>Твой дом</title>
   <!-- Custom Fonts -->
-  <link href="font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -29,7 +29,7 @@
   <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
   <nav class="sidebar-wrapper">
     <ul class="sidebar-nav">
-      <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+      <li><a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a></li>
       <li class="sidebar-brand">
         <button class="btn-link" onclick = "$('#menu-close').click(); window.location='#top'">Агентство</button>
       </li>
@@ -158,8 +158,8 @@
     </div>
   </section>
 
-  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-  <script type="text/javascript">
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+  <script>
     ymaps.ready(init);
     function init(){
       var map = new ymaps.Map("map", {
@@ -180,7 +180,7 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-lg-10 col-lg-offset-1 text-center" id="contact">
+        <div class="col-lg-10 col-lg-offset-1 text-center">
           <h4><strong>Твой Дом</strong>
           </h4>
           <p>г. Москва<br>Старомонетный переулок, 10</p>
